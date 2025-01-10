@@ -1,10 +1,36 @@
 .notes {
   width: 80%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .notes li {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   list-style: none;
-  padding: 20px;
+  padding-top: 20px;
   background-color: #ffffff;
   border-radius: 15px;
+}
+
+.note-title {
+  font-weight: bold;
+  font-size: 25px;
+  
+}
+
+.note-text {
+  font-family: Sans-Serif;
+  font-size: 18px;
+}
+.container {
+  background-color: #cacaca;
+}
+
+button {
+  border: none;
+  padding: 0;
+  margin: 0;
+  color: inherit;
+  background: none;
+  /* font-family: inherit; */
+  /* font-size: inherit; */
 }
